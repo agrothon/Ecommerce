@@ -10,7 +10,7 @@ import CustomButtons from './CustomButtons';
 import Search from './Search';
 
 const StyledHeader = styled(AppBar)`
-    background: #2874f0;
+    background: #FFFFFF;
     height: 55px;
 `;
 
@@ -47,7 +47,7 @@ const CustomButtonWrapper = styled('span')(({ theme }) => ({
 }));
 
 const Header = () => {
-    const logoURL = 'https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_8d85f4.png';
+    const logoURL = 'https://static.wixstatic.com/media/c7dc12_34388df51b1647e38a06b8a3499347c5~mv2.png/v1/fill/w_162,h_158,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/a2c%20logo%202%20black.png';
     const subURL = 'https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/plus_aef861.png';
 
     const [open, setOpen] = useState(false);
@@ -87,13 +87,13 @@ const Header = () => {
 
                 <Component to='/'>
                     <img src={logoURL} style={{ width: 75 }} />
-                    <Box component="span" style={{ display: 'flex' }}>
-                        <SubHeading>Explore&nbsp;
+                    <Box component="span" style={{ display: 'flex'}}>
+                        {/* <SubHeading>Explore&nbsp;
                             <Box component="span" style={{color:'#FFE500'}}>
                                 Plus
                             </Box>
-                        </SubHeading>
-                        <PlusImage src={subURL} />
+                        </SubHeading> */}
+                        {/* <PlusImage src={subURL} /> */}
                     </Box>
                 </Component>
                 <Search />

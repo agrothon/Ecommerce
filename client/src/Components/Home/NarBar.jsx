@@ -1,5 +1,4 @@
 
-
 import { Typography, Box, styled } from '@mui/material'; 
 
 import { navData } from '../../constant/data';
@@ -31,7 +30,7 @@ const NavBar = () => {
             {
                 navData.map(temp => (
                     <Container>
-                        <img src={temp.url} style={{  width: 64 }} />
+                        <img src={temp.url} style={{  width: 64,borderRadius:50}} />
                         <Text>{temp.text}</Text>
                     </Container>
                 ))

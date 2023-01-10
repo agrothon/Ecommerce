@@ -7,6 +7,12 @@ import Banner from './Home/Banner';
 import MidSlide from './Home/MidSlide';
 import MidSection from './Home/MidSection';
 import Slide from './Home/Slide';
+import Footer from './footer/footer';
+import Changing from './changing/changing';
+import Crop from './crops/crop';
+import Middle from './middle/middlie';
+//import "./Home.css"
+
 
 import { useSelector, useDispatch } from 'react-redux'; // hooks
 import { getProducts as listProducts } from '../redux/actions/productActions';
@@ -28,11 +34,14 @@ const Home = () => {
 
     return (
         <>
+         <div className="background-image">
             <NavBar />
             <Component>
-                <Banner />
-                <MidSlide products={products} />
-                <MidSection />
+                {/*      */}
+                <Changing/>
+                <Middle/>
+                {/* <MidSlide products={products} /> */}
+                {/*      */}
                 <Slide
                     data={products} 
                     title='Discounts for You'
@@ -45,7 +54,12 @@ const Home = () => {
                     timer={false} 
                     multi={true} 
                 />
-                <Slide
+                
+                <Crop/>
+                
+                <Footer/>
+
+                {/* <Slide
                     data={products} 
                     title='Top Selection'
                     timer={false} 
@@ -56,8 +70,9 @@ const Home = () => {
                     title='Recommended Items'
                     timer={false} 
                     multi={true} 
-                />
+                /> */}
             </Component>
+            </div>
         </>
     )
 }

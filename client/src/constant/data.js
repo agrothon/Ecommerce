@@ -1,13 +1,13 @@
 export const navData = [
-    { url: 'https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100', text: 'Top Offers' },
-    { url: 'https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100', text: 'Grocery' },
-    { url: 'https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100', text: 'Mobile' },
-    { url: 'https://rukminim1.flixcart.com/flap/128/128/image/82b3ca5fb2301045.png?q=100', text: 'Fashion' },
-    { url: 'https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100', text: 'Electronics' },
-    { url: 'https://rukminim1.flixcart.com/flap/128/128/image/ee162bad964c46ae.png?q=100', text: 'Home' },
-    { url: 'https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100', text: 'Appliances' },
-    { url: 'https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100', text: 'Travel' },
-    { url: 'https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100', text: 'Beauty, Toys & More' }
+    { url: 'https://communityfarm.in/wp-content/uploads/2021/10/fruits-150x150.png', text: 'Top Offers' },
+    { url: 'https://communityfarm.in/wp-content/uploads/2021/10/vegetables-150x150.png', text: 'Grocery' },
+    // { url: 'https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100', text: 'Mobile' },
+    { url: 'https://communityfarm.in/wp-content/uploads/2021/10/greens-150x150.png', text: 'Fashion' },
+    { url: 'https://communityfarm.in/wp-content/uploads/2022/02/Subscription-1-150x150.png', text: 'Electronics' },
+    { url: 'https://communityfarm.in/wp-content/uploads/2021/10/Snacks-150x150.png', text: 'Home' },
+    { url: 'https://communityfarm.in/wp-content/uploads/2021/10/fruits-150x150.png', text: 'Appliances' },
+    { url: 'https://communityfarm.in/wp-content/uploads/2021/10/poultry-150x150.png', text: 'Travel' },
+    { url: 'https://communityfarm.in/wp-content/themes/shopkeeper-child/images/home/main-categories/allProducts.svg', text: 'All Products'    }
 ];
 
 export const bannerData = [
@@ -20,7 +20,7 @@ export const bannerData = [
 export const dealData = [
     { 
         id: 'product1',
-        url: 'https://rukminim1.flixcart.com/image/200/200/khf63680/cases-covers/back-cover/d/7/g/spigen-acs02256-original-imafxfgbffqaugur.jpeg?q=70', 
+        url: 'https://communityfarm.in/wp-content/uploads/2019/04/Sonaka-Grapes.jpeg', 
         detailUrl: '',
         title: {
             shortTitle: 'Mobile Covers'
@@ -30,7 +30,7 @@ export const dealData = [
     },
     { 
         id: 'product2',
-        url: 'https://rukminim1.flixcart.com/image/200/200/k5lcvbk0/moisturizer-cream/9/w/g/600-body-lotion-aloe-hydration-for-normal-skin-nivea-lotion-original-imafz8jb3ftt8gf9.jpeg?q=70', 
+        url: 'https://communityfarm.in/wp-content/uploads/2019/04/Sonaka-Grapes.jpeg', 
         title: {
             shortTitle: 'Skin & Hair Care'
         },
@@ -39,7 +39,7 @@ export const dealData = [
     },
     { 
         id: 'product3',
-        url: 'https://rukminim1.flixcart.com/flap/200/200/image/74bc985c62f19245.jpeg?q=70', 
+        url: 'https://communityfarm.in/wp-content/uploads/2019/04/Sonaka-Grapes.jpeg', 
         title: {
             shortTitle: 'Skybags & Safari'
         }, 
@@ -48,7 +48,7 @@ export const dealData = [
     },
     { 
         id: 'product4',
-        url: 'https://rukminim1.flixcart.com/image/300/300/kll7bm80/smartwatch/c/1/n/43-mo-sw-sense-500-android-ios-molife-original-imagyzyycnpujyjh.jpeg?q=70', 
+        url: 'https://communityfarm.in/wp-content/uploads/2019/04/Sonaka-Grapes.jpeg', 
         detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kll7bm80/smartwatch/c/1/n/43-mo-sw-sense-500-android-ios-molife-original-imagyzyycnpujyjh.jpeg?q=70',
         title: {
             shortTitle: 'Smart Watches',
@@ -65,7 +65,7 @@ export const dealData = [
     },
     { 
         id: 'product5',
-        url: 'https://rukminim1.flixcart.com/flap/150/150/image/b616a7aa607d3be0.jpg?q=70', 
+        url: 'https://communityfarm.in/wp-content/uploads/2019/04/Sonaka-Grapes.jpeg', 
         title: {
             shortTitle: 'Sports & Fitness Essentials'
         }, 
@@ -76,7 +76,7 @@ export const dealData = [
 
 export const furnitureData = [
     { 
-        url: 'https://rukminim1.flixcart.com/image/300/300/ke7ff680/hammock-swing/j/f/u/q3-jkaf-y3l0-furniture-kart-original-imafux96kpy7grch.jpeg?q=70', 
+        url: 'https://communityfarm.in/wp-content/uploads/2019/04/Sonaka-Grapes.jpeg', 
         title: {
             shortTitle: 'Hammock And Swings'
         }, 
@@ -84,7 +84,7 @@ export const furnitureData = [
         tagline: 'Trendy Collection' 
     },
     { 
-        url: 'https://rukminim1.flixcart.com/image/300/300/bean-bag/h/v/b/f8-the-furniture-store-xxxl-original-imae65d3wg7qzpkn.jpeg?q=70', 
+        url: 'https://communityfarm.in/wp-content/uploads/2019/04/Sonaka-Grapes.jpeg', 
         title: {
             shortTitle: 'Bean Bag Covers'
         }, 
@@ -92,7 +92,7 @@ export const furnitureData = [
         tagline: 'XL, XXL & More' 
     },
     { 
-        url: 'https://rukminim1.flixcart.com/image/300/300/jlcmavk0/aquarium-tank/s/4/5/usb-desktop-aquarium-with-running-water-calendar-temperature-and-original-imaf8hv4nkv55gx8.jpeg?q=70', 
+        url: 'https://communityfarm.in/wp-content/uploads/2019/04/Sonaka-Grapes.jpeg', 
         title: {
             shortTitle: 'Aquarium Tank'
         }, 
@@ -100,7 +100,7 @@ export const furnitureData = [
         tagline: 'Flat, Round, Cube & More' 
     },
     { 
-        url: 'https://rukminim1.flixcart.com/image/300/300/jffpoy80/office-study-chair/v/v/z/pp-am-5001cb-apex-original-imaf3u8rbr5cdycv.jpeg?q=70', 
+        url: 'https://communityfarm.in/wp-content/uploads/2019/04/Sonaka-Grapes.jpeg', 
         title: {
             shortTitle: 'Office & Study Chairs'
         }, 
@@ -108,7 +108,7 @@ export const furnitureData = [
         tagline: 'Fabric & Leatherette' 
     },
     { 
-        url: 'https://rukminim1.flixcart.com/image/300/300/jvcp9jk0/recliner/z/w/x/brown-top-grain-leather-sf7018011-1-royaloak-original-imafg9s9hh9vzpf3.jpeg?q=70', 
+        url: 'https://communityfarm.in/wp-content/uploads/2019/04/Sonaka-Grapes.jpeg', 
         title: {
             shortTitle: 'Recliner'
         }, 
@@ -116,7 +116,7 @@ export const furnitureData = [
         tagline: 'Bantia, RoyalOak & More' 
     },
     { 
-        url: 'https://rukminim1.flixcart.com/image/300/300/jlqwpe80-1/tv-entertainment-unit/d/t/f/particle-board-holland-tv-unit-black-forzza-black-original-imaf8t5ybywcdtys.jpeg?q=70', 
+        url: 'https://communityfarm.in/wp-content/uploads/2019/04/Sonaka-Grapes.jpeg', 
         title: {
             shortTitle: 'Tv Units'
         }, 
@@ -124,7 +124,7 @@ export const furnitureData = [
         tagline: 'Forzza, Zuari & more' 
     },
     { 
-        url: 'https://rukminim1.flixcart.com/image/300/300/inflatable-sofa/6/j/s/wsb031a-velvet-wds-original-imaeaphzbkgrz3xp.jpeg?q=70', 
+        url: 'https://communityfarm.in/wp-content/uploads/2019/04/Sonaka-Grapes.jpeg', 
         title: {
             shortTitle: 'Inflatable Sofas'
         }, 

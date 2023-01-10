@@ -1,0 +1,39 @@
+.unordered{
+    list-style: none;
+    align-items: center;
+    border: 5px;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.connect{
+    align-items: right;
+    display: flex;
+    padding: 40px;
+}
+
+.items{
+    padding: 5px;
+    color: grey;
+}
+
+.icon{
+    padding: 20px;
+    display: flex;
+    color: green;
+    
+}
+
+.last{
+    padding: 10px;
+    font-size: large;
+    color: grey;
+}
+
+.main{
+    padding: 40px;
+}
+
+.bold{
+    align-items: center;
+}

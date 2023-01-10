@@ -13,43 +13,51 @@ import LoginDialog from '../Login/LoginDialog';
 const Container = styled(Link)(({ theme }) => ({
     display: 'flex',
     [theme.breakpoints.down('sm')]: {
-        display: 'block'
+        display: 'block',
+        boxShadow: 'solid',
+        variant:"outlined",
+        label:"Outlined",
     }
 }));
 
 const Wrapper = styled(Box)(({ theme }) => ({
-    margin: '0 3% 0 auto',
+    margin: '8   3% 0 auto',
     display: 'flex',
     '& > *': {
         marginRight: '40px !important',
         textDecoration: 'none',
-        color: '#FFFFFF',
+        color: '#000000',
         fontSize: 12,
         alignItems: 'center',
         [theme.breakpoints.down('sm')]: {
-            color: '#2874f0',
+            color: '#000000',
             alignItems: 'center',
             display: 'flex',
             flexDirection: 'column',
-            marginTop: 10
+            marginTop: 10,
+            boxShadow: 'solid',
+        
+           
         }
     },
     [theme.breakpoints.down('sm')]: {
-        display: 'block'
+        display: 'block',
+       
     }
 }));
 
 const LoginButton = styled(Button)(({ theme }) => ({
-    color: '#2874f0',
+    color: '#000000',
     background: '#FFFFFF',
     textTransform: 'none',
     fontWeight: 600,
-    borderRadius: 2,
+    borderRadius: 8,
     padding: '5px 40px',
     height: 32,
-    boxShadow: 'none',
+    boxShadow: ' solid',
+   
     [theme.breakpoints.down('sm')]: {
-        background: '#2874f0',
+        background: '#000000',
         color: '#FFFFFF'
     }
 }));
@@ -71,11 +79,11 @@ const CustomButtons = () => {
         <Wrapper>
             {
                 account ? <Profile account={account} setAccount={setAccount} /> :
-                    <LoginButton variant="contained" onClick={() => openDialog()}>Login</LoginButton>
+                    <LoginButton variant="outlined" style={{ marginLeft: 10 }} onClick={() => openDialog()}>Login</LoginButton>
                 
             }
-            <Typography style={{ marginTop: 3, width: 135 }}>Become a Seller</Typography>
-            <Typography style={{ marginTop: 3 }}>More</Typography>
+            <Typography style={{ marginTop: 3, width: 135, fontWeight:100 ,fontSize:15  }}><b>Become a Seller</b></Typography>
+            {/* <Typography style={{ marginTop: 3 }}>More</Typography> */}
             
             <Container to='/cart'>
                 <Badge badgeContent={cartItems?.length} color="secondary">
@@ -88,4 +96,4 @@ const CustomButtons = () => {
     )
 }
 
-export default CustomButtons;
+export default CustomButtons;   

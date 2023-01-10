@@ -1,0 +1,33 @@
+.image{
+    border-radius: 50%;
+    padding: 10px;
+    padding-top: 30px;
+    height: 50%;
+    border-style: ridge;
+}
+
+.list{
+    list-style: disc;
+    text-align: left;
+}
+
+.main-case{
+    height: 300px;
+    padding-left: 40px;
+    padding: 20px;
+}
+
+.heading{
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    color: black;
+}
+
+.items{
+    font-size: 18px;
+    align-items: left;
+    text-align: left;
+    color: black;
+}

@@ -79,7 +79,7 @@ const MultiSlide = ({ data, timer, title }) => {
     
     return (
         <Component>
-            <Deal>
+            {/* <Deal>
                 <DealText>{title}</DealText>
                 {
                     timer && <Timer>
@@ -88,7 +88,7 @@ const MultiSlide = ({ data, timer, title }) => {
                         </Timer>
                 }
                 <ViewAllButton variant="contained" color="primary">View All</ViewAllButton>
-            </Deal>
+            </Deal> */}
             <Divider />
             <Carousel
                 swipeable={false}

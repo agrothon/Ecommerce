@@ -1,0 +1,42 @@
+
+.bigimage{
+    
+    align-items: right;
+    display: inline;
+    height: 70%;
+    width: 90%;
+    padding-left: 60px ;
+
+    }
+    
+    .knowproduct{
+        color: orange;
+        text-align: left;
+        padding-left: 10%;
+        
+    }
+    
+    .heading{
+        font-size: 15px;
+        color: grey;
+        
+    }
+    
+    .list{
+        list-style: none;
+        align-items: left;
+    
+    
+    }
+    
+    .icon{
+        width: 10%;
+        height: 10%;
+    }
+    
+    .points{
+        flex-basis: 40%;
+        display: inline-block;
+    }
+
+    

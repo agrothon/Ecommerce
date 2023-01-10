@@ -8,10 +8,11 @@ import { getProducts as listProducts } from '../../redux/actions/productActions'
 import { Link } from 'react-router-dom';
 
 const SearchContainer = styled(Box)`
-  border-radius: 2px;
+  border-radius: 20px;
+  border: 1px solid black;
   margin-left: 10px;
   width: 38%;
-  background-color: #fff;
+  background-color: #FFF;
   display: flex;
 `;
 
@@ -56,7 +57,10 @@ const Search = () => {
     return (
         <SearchContainer>
             <InputSearchBase
-              placeholder="Search for products, brands and more"
+              placeholder="Search for fresh products"
+              id="outlined-basic"
+               label="Outlined"
+                variant="outlined"
               inputProps={{ 'aria-label': 'search' }}
               onChange={(e) => getText(e.target.value)}
             />
